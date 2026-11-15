@@ -1,0 +1,12 @@
+{
+  "name": "sawariya-royal-luxury-jewellery",
+  "version": "1.0.0",
+  "description": "Sawariya Royal Luxury Jewellery - Premium E-Commerce Website by Om Mishra, Jaipur",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "Om Mishra (Sawariya Royal Luxury Jewellery)",
+  "license": "ISC"
+}
