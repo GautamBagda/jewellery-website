@@ -8,9 +8,9 @@
 
   <!-- SEO & Brand Metadata -->
   <meta name="description"
-    content="Sawariya Royal Luxury Jewellery by Om Mishra. Premium custom, royal, and elegant jewellery handcrafted in Jaipur, Rajasthan. Shop earrings, necklaces, bracelets, rings, and bridal sets with direct WhatsApp ordering.">
+    content="Sawariya Royal Luxury Jewellery by Om Mishra. Premium custom, royal, and elegant jewellery handcrafted in Jaipur, Rajasthan. Shop earrings, necklaces, bracelets, and rings with direct WhatsApp ordering.">
   <meta name="keywords"
-    content="Sawariya Royal Luxury Jewellery, Jaipur custom jewellery, royal jewellery Jaipur, Om Mishra jewellery, bridal jewellery, anti-tarnish custom jewellery, WhatsApp jewellery order">
+    content="Sawariya Royal Luxury Jewellery, Jaipur custom jewellery, royal jewellery Jaipur, Om Mishra jewellery, anti-tarnish custom jewellery, WhatsApp jewellery order">
   <meta name="author" content="Om Mishra - Sawariya Royal Luxury Jewellery">
 
   <!-- Open Graph / Social Sharing -->
@@ -97,8 +97,6 @@
               Bracelets & Cuffs (4)</a>
             <a href="javascript:void(0)" class="dropdown-item" onclick="filterCategoryFromHero('rings')">💍 Rings
               (3)</a>
-            <a href="javascript:void(0)" class="dropdown-item" onclick="filterCategoryFromHero('bridal')">👰 Bridal
-              Jewellery (3)</a>
           </div>
         </div>
         <a href="#aboutSection" class="nav-link">About Us</a>
@@ -431,24 +429,12 @@
 
         <!-- Category 4: Rings -->
         <div class="category-card" onclick="filterCategoryFromHero('rings')">
-          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&auto=format&fit=crop&q=80"
+          <img src="images/ring1.jpeg"
             alt="Royal Rings Collection" class="category-card-img"
-            onerror="this.onerror=null; this.src='images/bracelets1.jpeg';">
+            onerror="this.onerror=null; this.src='images/ring1.jpeg';">
           <div class="category-card-overlay">
             <span class="category-card-count">3 Designs</span>
             <h3 class="category-card-title">Rings</h3>
-            <span class="category-card-cta">Explore Collection →</span>
-          </div>
-        </div>
-
-        <!-- Category 5: Bridal Jewellery -->
-        <div class="category-card" onclick="filterCategoryFromHero('bridal')">
-          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&auto=format&fit=crop&q=80"
-            alt="Bridal Jewellery Collection" class="category-card-img"
-            onerror="this.onerror=null; this.src='images/necklace1.jpeg';">
-          <div class="category-card-overlay">
-            <span class="category-card-count">3 Designs</span>
-            <h3 class="category-card-title">Bridal Jewellery</h3>
             <span class="category-card-cta">Explore Collection →</span>
           </div>
         </div>
@@ -530,7 +516,7 @@
             <span class="vip-banner-eyebrow">Discover More Exclusive Pieces</span>
             <h3 class="vip-banner-title">Looking for New Designs Not on This Website?</h3>
             <p class="vip-banner-desc">
-              We release fresh daily drops, limited-edition bridal pieces, and custom royal collections directly on our
+              We release fresh daily drops, limited-edition statement pieces, and custom royal collections directly on our
               official WhatsApp Channel and Instagram! Connect with us to explore hundreds of additional designs that
               are newly launched and exclusively available there.
             </p>
@@ -590,7 +576,7 @@
 
         <p class="about-text">
           Our vision is to bring that same regal grandeur to every modern girl and lady across Jaipur and India. Every
-          bracelet, earring, necklace, ring, and bridal set is custom designer jewelry crafted with uncompromising
+          bracelet, earring, necklace, and ring is custom designer jewelry crafted with uncompromising
           attention to detail, using skin-safe, anti-tarnish protective coatings and radiant crystal detailing.
         </p>
 
@@ -627,7 +613,7 @@
       <div class="section-head">
         <div class="section-eyebrow">Get in Touch</div>
         <h2 class="section-title">Royal Customer Concierge</h2>
-        <p class="section-subtitle">Have a custom inquiry, bridal order, or need personalized styling assistance?</p>
+        <p class="section-subtitle">Have a custom inquiry, special order, or need personalized styling assistance?</p>
       </div>
 
       <div class="contact-grid">
@@ -736,7 +722,6 @@
                   <option value="Necklaces">Necklaces</option>
                   <option value="Bracelets & Cuffs">Bracelets & Cuffs</option>
                   <option value="Rings">Rings</option>
-                  <option value="Bridal Jewellery">Bridal Jewellery</option>
                   <option value="Custom Order">Custom / Bulk Order</option>
                 </select>
               </div>
@@ -843,7 +828,6 @@
             <li><a href="javascript:void(0)" onclick="filterCategoryFromHero('necklaces')">Necklaces & Chokers</a></li>
             <li><a href="javascript:void(0)" onclick="filterCategoryFromHero('bracelets')">Bracelets & Cuffs</a></li>
             <li><a href="javascript:void(0)" onclick="filterCategoryFromHero('rings')">Cocktail Rings</a></li>
-            <li><a href="javascript:void(0)" onclick="filterCategoryFromHero('bridal')">Bridal Jewellery</a></li>
           </ul>
         </div>
 
@@ -924,6 +908,7 @@
       <div class="cart-summary-line total-line">
         <span>Total Amount:</span>
         <span id="cartTotal" style="color: var(--terracotta);">₹0</span>
+        <span id="cartSubtotal" style="display: none;">₹0</span>
       </div>
 
       <!-- The Core WhatsApp Order Trigger -->

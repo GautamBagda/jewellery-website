@@ -254,7 +254,7 @@ const PRODUCTS_DATA = [
     originalPrice: 899,
     image: "images/ear_rings1_c.jpeg",
     fallbackImage: "images/ear_rings1.jpeg",
-    badge: "Bridal Classic",
+    badge: "Royal Classic",
     rating: 4.9,
     reviewsCount: 20,
     isBestseller: false,
@@ -483,28 +483,28 @@ const PRODUCTS_DATA = [
   // ===================== RINGS =====================
   {
     id: "SRLJ-RG-01",
-    name: "Jaipur Rajwada Jadau Polki Solitaire Cocktail Ring",
+    name: "Jaipur Rajwada Solitaire Halo Cocktail Ring",
     category: "Rings",
     categorySlug: "rings",
     price: 399,
     originalPrice: 999,
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=700&auto=format&fit=crop&q=80",
-    fallbackImage: "images/bracelets1.jpeg",
+    image: "images/ring1.jpeg",
+    fallbackImage: "images/ring1.jpeg",
     badge: "Jaipur Heritage",
-    rating: 4.3,
-    reviewsCount: 12,
+    rating: 4.8,
+    reviewsCount: 22,
     isBestseller: true,
     isFloatingHero: false,
-    description: "Traditional Jaipur Jadau craftsmanship featuring an imperial uncut polki stone encircled by micro-pearls and intricate floral meenakari detailing. Majestic presence on any finger.",
+    description: "Imperial round brilliant-cut solitaire crystal enveloped in a delicate pavé diamond halo with dual-split micro-pavé shank. Majestic royal presence on any finger.",
     features: [
-      "Traditional Jaipur Polki Foil Kundan Setting",
-      "Meenakari Enamel Reverse Artistry",
-      "Adjustable Royal Shank - Fits All Fingers",
+      "Round Brilliant Solitaire Center Stone",
+      "Delicate Double Halo Pavé Setting",
+      "Comfort-Contoured Dual Split Band",
       "Anti-Tarnish Velvet Box Presentation"
     ],
-    material: "Designer jewelry brass, Kundan Polki stones, Meenakari enamel",
-    finish: "Royal Gold Tone & Polki Lustre",
-    dimensions: "Diameter: 3.0 cm centerpiece | Free-size adjustable band",
+    material: "Designer jewelry alloy, precision-cut Austrian crystal diamonds",
+    finish: "Silver Platinum Luster & Diamond Shine",
+    dimensions: "Solitaire: 1.2 cm | Free-size adjustable band",
     care: "Wipe with soft cloth. Avoid moisture and hand sanitizers."
   },
   {
@@ -514,130 +514,50 @@ const PRODUCTS_DATA = [
     categorySlug: "rings",
     price: 449,
     originalPrice: 1199,
-    image: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=700&auto=format&fit=crop&q=80",
-    fallbackImage: "images/necklace3.jpeg",
+    image: "images/ring2.jpeg",
+    fallbackImage: "images/ring2.jpeg",
     badge: "Royal Pick",
-    rating: 4.7,
-    reviewsCount: 10,
+    rating: 4.9,
+    reviewsCount: 28,
     isBestseller: true,
     isFloatingHero: false,
-    description: "A deep Jaipur emerald simulated gemstone nestled within a double-tier cushion halo of brilliant crystals. Designed for grand festive presence and royal cocktail banquets.",
+    description: "A breathtaking cushion-cut pink crystal gemstone nestled within a sparkling micro-pavé halo on a rose gold-tone band. Designed for grand festive presence and royal cocktail banquets.",
     features: [
-      "Deep Royal Emerald Center Stone",
-      "Double Tier Crystal Halo Setting",
-      "Comfort-Contoured Gold Tone Band",
+      "Radiant Cushion-Cut Center Stone",
+      "Micro-Pavé Diamond Crystal Halo",
+      "Comfort-Contoured Rose Gold-Tone Band",
       "Adjustable Free-Size Fit"
     ],
-    material: "Custom jewelry alloy, simulated emerald, Austrian crystals",
-    finish: "Royal Emerald & Gold Tone",
+    material: "Custom jewelry alloy, faceted crystal gemstone, Austrian stones",
+    finish: "Rose Gold Tone & Pink Sapphire Luster",
     dimensions: "Center Stone: 1.4 cm x 1.2 cm | Adjustable band",
     care: "Store in ring box slot to protect stone facets."
   },
   {
     id: "SRLJ-RG-03",
-    name: "Butterfly Twin Crystal Statement Ring",
+    name: "Aura Oval Topaz & Crystal Trillion Statement Ring",
     category: "Rings",
     categorySlug: "rings",
     price: 499,
     originalPrice: 999,
-    image: "https://images.unsplash.com/photo-1598560917505-59a3ad559071?w=700&auto=format&fit=crop&q=80",
-    fallbackImage: "images/bracelets4.jpeg",
+    image: "images/ring3.jpeg",
+    fallbackImage: "images/ring3.jpeg",
     badge: "Feminine Modern",
-    rating: 4.5,
-    reviewsCount: 17,
+    rating: 4.9,
+    reviewsCount: 31,
     isBestseller: false,
     isFloatingHero: false,
-    description: "Whimsical open-shank twin butterfly ring glittering with micro-pavé crystals in romantic rose gold tone. Pairs gorgeously with our Imperial Butterfly Cuff.",
+    description: "An exquisite oval-cut golden topaz crystal flanked by twin trillion-cut Austrian side crystals set on a polished rose gold-tone band. Clean, unmistakable luxury ring silhouette with radiant warmth.",
     features: [
-      "Twin Floating Butterfly Silhouette",
-      "Rose Gold-Tone Luster Finish",
-      "Open Wrap-Around Adjustable Fit",
-      "Dainty yet Eye-Catching Luster"
+      "Faceted Oval Amber-Topaz Crystal Center",
+      "Twin Trillion-Cut Side Accent Crystals",
+      "Polished Rose Gold-Tone Slender Band",
+      "Skin-Friendly Comfort Fit"
     ],
-    material: "Custom jewelry alloy, micro pavé crystal stones",
-    finish: "Rose Gold Tone Mirror Polish",
-    dimensions: "Adjustable ring size (Fits US 5 to 9)",
+    material: "Custom jewelry alloy, faceted crystal gemstone, Austrian side stones",
+    finish: "Rose Gold Tone & Golden Topaz Luster",
+    dimensions: "Oval Center: 1.1 cm x 0.8 cm | Adjustable band",
     care: "Remove before hand washing for extended luster."
-  },
-
-  // ===================== BRIDAL JEWELLERY =====================
-  {
-    id: "SRLJ-BD-01",
-    name: "Jaipur Rajwada Kundan & Pearl Grand Bridal Choker Ensemble",
-    category: "Bridal Jewellery",
-    categorySlug: "bridal",
-    price: 1599,
-    originalPrice: 4999,
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700&auto=format&fit=crop&q=80",
-    fallbackImage: "images/necklace1.jpeg",
-    badge: "Bridal Masterpiece",
-    rating: 4.9,
-    reviewsCount: 8,
-    isBestseller: true,
-    isFloatingHero: false,
-    description: "The quintessence of Rajasthani bridal opulence: Heavy handcrafted kundan choker with emerald drop beads, matching grand jhumkas, and royal maang tikka. Handcrafted by master artisans in Jaipur.",
-    features: [
-      "Authentic Jaipur Kundan Jadau Craft",
-      "Rich Hydro Emerald & Basra Pearl Drops",
-      "Complete 3-Piece Grand Bridal Set",
-      "Adjustable Royal Dori for Custom Fit"
-    ],
-    material: "Handcrafted designer alloy, Kundan Polki stones, Hydro Emeralds, Pearls",
-    finish: "Rajputi Imperial Gold Tone & Green",
-    dimensions: "Choker Width: 6.5 cm | Earrings: 7.5 cm | Tikka: 12 cm",
-    care: "Keep in royal velvet bridal chest provided."
-  },
-  {
-    id: "SRLJ-BD-02",
-    name: "Royal Polki Emerald & Ruby Heritage Rani Haar Set",
-    category: "Bridal Jewellery",
-    categorySlug: "bridal",
-    price: 999,
-    originalPrice: 2599,
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700&auto=format&fit=crop&q=80",
-    fallbackImage: "images/necklace3.jpeg",
-    badge: "Heritage Collection",
-    rating: 5.0,
-    reviewsCount: 9,
-    isBestseller: true,
-    isFloatingHero: false,
-    description: "Magnificent multi-strand layered Rani Haar necklace set inspired by royal Rajputi queens, encrusted with polki stones and rich green hydro gemstone droplets with matching royal jhumki drops.",
-    features: [
-      "Layered Rani Haar Multi-Strand Silhouette",
-      "Traditional Meenakari Handwork on Reverse",
-      "Includes Grand Jhumka Earrings with Hair Chains",
-      "Jaipur Royal Palace Heritage Design"
-    ],
-    material: "Polki Kundan, Semi-precious Green Agate & Ruby Hydro Drops, Gold-Tone Finish",
-    finish: "Imperial Heritage Gold Tone",
-    dimensions: "Rani Haar Length: 60 cm | Center Pendant: 8.5 cm",
-    care: "Wrap in cotton muslin cloth inside the velvet box."
-  },
-  {
-    id: "SRLJ-BD-03",
-    name: "Sheesh Mahal Victorian Diamond & Crystal Bridal Gala Set",
-    category: "Bridal Jewellery",
-    categorySlug: "bridal",
-    price: 1599,
-    originalPrice: 4999,
-    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&auto=format&fit=crop&q=80",
-    fallbackImage: "images/necklace1.jpeg",
-    badge: "Modern Bride",
-    rating: 4.9,
-    reviewsCount: 6,
-    isBestseller: false,
-    isFloatingHero: false,
-    description: "Spectacular Victorian collar set with pear-shaped crystal drops and matching chandelier earrings for the modern reception bride and cocktail queen.",
-    features: [
-      "Precision-faceted Austrian Zirconia Crystals",
-      "Victorian High-Shine Platinum Diamond Tone",
-      "Full Collar Coverage with Cascading Drops",
-      "Includes Chandelier Earrings"
-    ],
-    material: "Custom jewelry alloy with brilliant Austrian crystal stones",
-    finish: "Victorian Platinum Diamond Tone Shine",
-    dimensions: "Collar Length: 39 cm + 8 cm chain | Earrings: 6.2 cm",
-    care: "Avoid moisture, keep in air-tight container."
   }
 ];
 
@@ -661,12 +581,11 @@ const BUSINESS_INFO = {
 
 // Category Definitions
 const CATEGORIES = [
-  { id: "all", name: "All Jewels", count: 24, icon: "crown" },
+  { id: "all", name: "All Jewels", count: 21, icon: "crown" },
   { id: "earrings", name: "Earrings", count: 11, icon: "sparkles", image: "images/ear_rings1_b.jpeg" },
   { id: "necklaces", name: "Necklaces", count: 3, icon: "gem", image: "images/necklace1.jpeg" },
   { id: "bracelets", name: "Bracelets & Cuffs", count: 4, icon: "circle-dot", image: "images/bracelets4.jpeg" },
-  { id: "rings", name: "Rings", count: 3, icon: "ring", image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500&auto=format&fit=crop&q=80" },
-  { id: "bridal", name: "Bridal Jewellery", count: 3, icon: "heart", image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80" }
+  { id: "rings", name: "Rings", count: 3, icon: "ring", image: "images/ring1.jpeg" }
 ];
 
 // Attach to window and exports
